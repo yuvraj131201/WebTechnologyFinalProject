@@ -10,6 +10,16 @@
 **Backend**: Node.js 
 **Database**: MongoDB (Atlas)
 
+### Pre-requirements
+
+**Node.js** must be installed.
+**npm** must be imstalled.
+A **MongoDB Atlas** account and a configured database cluster.
+
+### Installation Steps
+1. **Clone the Repository** : git clone https://github.com/yuvraj131201/WebTechnologyFinalProject
+2. Navigate to the Project Directory
+
 ### Project Setup
 
 1. **Project Initialization**: Repository created on GitHub and cloned to local machine.
