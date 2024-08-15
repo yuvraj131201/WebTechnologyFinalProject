@@ -13,18 +13,25 @@
 ### Pre-requirements
 
 **Node.js** must be installed.
-**npm** must be imstalled.
+**npm** must be installed.
 A **MongoDB Atlas** account and a configured database cluster.
 
 ### Installation Steps
-1. **Clone the Repository** : git clone https://github.com/yuvraj131201/WebTechnologyFinalProject
-2. Navigate to the Project Directory
+1. **Clone the Repository/ Unzip the project from E-Conestoga submission page** 
+2. **Navigate to the Project Directory**: cd e-commerce-project
+3. **Install Dependencies**:
+For the Backend :cd backend
+npm install
+For the Frontend: cd ../frontend
+npm install
+
 
 ### Project Setup
 
-1. **Project Initialization**: Repository created on GitHub and cloned to local machine.
-2. **Frontend Setup**: Initialized ReactJS project.
-3. **Backend Setup**: Initialized Node.js project with Express and connected to MongoDB (Atlas).
+1. **Start Front-end (ReactJS)**:
+    
+3. **Frontend Setup**: Initialized ReactJS project.
+4. **Backend Setup**: Initialized Node.js project with Express and connected to MongoDB (Atlas).
 
 ### Database Schema Design
 
