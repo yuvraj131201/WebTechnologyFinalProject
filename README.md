@@ -20,18 +20,22 @@ A **MongoDB Atlas** account and a configured database cluster.
 1. **Clone the Repository/ Unzip the project from E-Conestoga submission page** 
 2. **Navigate to the Project Directory**: cd e-commerce-project
 3. **Install Dependencies**:
-For the Backend :cd backend
-npm install
-For the Frontend: cd ../frontend
-npm install
+For the Backend : - `cd backend
+npm install`
+For the Frontend:  `cd ../frontend
+npm install`
 
 
 ### Project Setup
 
 1. **Start Front-end (ReactJS)**:
-    
-3. **Frontend Setup**: Initialized ReactJS project.
-4. **Backend Setup**: Initialized Node.js project with Express and connected to MongoDB (Atlas).
+Enter the backend folder: `cd frontend`
+Initialize ReactJS project by running following code in terminal :
+`npm start`
+2. **Start Back-end (Node.js)**: Open new terminal.
+   Enter the backend folder: `cd backend`
+   Initialize Node.js project by running following code in terminal :
+   `node server.js`
 
 ### Database Schema Design
 
