@@ -39,19 +39,19 @@ Initialize ReactJS project by running following code in terminal :
 3. **Open Project in Browser**: The app must start in browser when you run the frontend. If not, you can access it from http://localhost:3000/ directly.
 
 ### Project Walkthrough
-1. Login Page :
+1. **Login Page :**
 You need to login using the username and password given below :
 username : admin
 password : password
 
-2. Products Page :
+2. **Products Page :**
 After you log in, you can see the list of products where you can select quantity and add to the cart.
 
-3. Shopping Cart Page :
+3. **Shopping Cart Page :**
 When you click on 'add to cart' button, you will land to the shopping cart page.
 There you can either place order or remove the item.
 
-4. Checkout Page :
+4. **Checkout Page :**
 When you hit 'Place Order', you will be landing on checkout page.
 You need to fill out necessary details and then you can place the order.
 
