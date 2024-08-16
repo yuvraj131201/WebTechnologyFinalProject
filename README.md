@@ -36,55 +36,27 @@ Initialize ReactJS project by running following code in terminal :
    Enter the backend folder: `cd backend`
    Initialize Node.js project by running following code in terminal :
    `node server.js`
+3. **Open Project in Browser**: The app must start in browser when you run the frontend. If not, you can access it from http://localhost:3000/ directly.
 
-### Database Schema Design
+### Project Walkthrough
+1. Login Page :
+You need to login using the username and password given below :
+username : admin
+password : password
 
-**Products Schema (MongoDB)**
+2. Products Page :
+After you log in, you can see the list of products where you can select quantity and add to the cart.
 
-- `product_id`: String
-- `description`: String
-- `price`: Decimal
-- `stock`: Integer
-- `imageUrl`: String
+3. Shopping Cart Page :
+When you click on 'add to cart' button, you will land to the shopping cart page.
+There you can either place order or remove the item.
 
-**Cutomer Schema (MongoDB)**
+4. Checkout Page :
+When you hit 'Place Order', you will be landing on checkout page.
+You need to fill out necessary details and then you can place the order.
 
-- `customer_id`: Integer
-- `password`: String
-- `email`: String
-- `first_name`: String
-- `last_name`: String
-- `address`: String
-- `phone`: Integer
 
-**Order Schema (MongoDB)**
-
-- `order_id`: Integer
-- `order_date`: Date
-- `total_price`: Integer
-
-**Payment Schema (MongoDB)**
-
-- `payment_id`: Integer
-- `payment_date`: Date
-- `payment_method`: String
-
-**Shipment Schema (MongoDB)**
-
-- `shipment_id`: Integer
-- `shipment_date`: Date
-- `address`: String
-- `city`: String
-- `province`: String
-- `postal_code`: String
-- `phone`: Integer
-
-### Frontend Setup
-
-1. Basic structure set up for React components, including directories for components and services.
-2. State management planned to handle user sessions and cart data.
 
 ### Notes
-
-- The project is set up using Git and GitHub for version control.
-- Further development will include implementing user interfaces for product listings, shopping cart, and checkout.
+- If you just launch the frontend, you won't be seeing any products until you launch backend.
+- The order won't be placed if you entered invalid details.
